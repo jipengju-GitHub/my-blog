@@ -15,10 +15,15 @@ npm run build
 # 进入生成的文件夹
 cd $dist_path
 
+# 拷贝目录和文件
+cp -r ../../../.github ./
+
+
 git init
 git add -A
 git commit -m "deploy, $commit_info"
 git push -f $push_addr HEAD:$push_branch
+git push -f https://gitee.com/jipengju/my-blog.git master:gh-pages
 
 cd -
 rm -rf $dist_path
