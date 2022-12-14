@@ -14,7 +14,7 @@ jobs:
           src: 'github/jipengju-GitHub'
           dst: 'gitee/jipengju'
           dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
-          dst_token:  ${{ secrets.GITEE_TOKEN }}
+#          dst_token:  ${{ secrets.GITEE_TOKEN }}
 #          clone_style: "ssh"
           static_list: "my-blog"
           force_update: true
