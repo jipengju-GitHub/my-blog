@@ -15,6 +15,12 @@ pnpm-lock.yaml
 # vuepress
 docs/.vuepress/dist
 
+# github_to_gitee_rsa
+github_to_gitee_rsa
+
+# github_to_gitee_rsa.pub
+github_to_gitee_rsa.pub
+
 # 百度链接推送
 urls.txt
 
